@@ -1,0 +1,7 @@
+<p>home works!</p>
+<ng-container *ngFor="let photo of photoList">
+  <app-photo-display
+    [urlImage]="photo.download_url"
+    [alt]="photo.author"
+  ></app-photo-display>
+</ng-container>
